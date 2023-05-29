@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=true">
+  <title>Przydomowy ogródek</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/slideshow.css">
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+<!-- Start Landing Page -->
+
+<div class="landing-page">
+  <div class="container">
+
+    <div class="header-area" id="header1">
+      <div class="logo"><a href="../html/index.html"><img class="logof" src="../photo/logo.png"></a></div>
+      <ul class="links">
+        <li class="hover"><a href="index.html">Strona Główna</a></li>
+        <li class="hover"><a href="shop.html">Sklep</a></li>
+        <li class="hover"><a href="posty.html">Posty</a></li>
+        <li class="hover"><a href="contact.html">Kontakt</a></li>
+        <li><a href="profile.html"><i class="fa fa-user icon-hover"></i></a></li>
+      </ul>
+    </div>
+
+    <div id="padd">
+      <div class="info">
+        <h1>Witamy w naszym magicznym świecie przydomowego ogrodu!</h1>
+
+          <p>Zapraszamy Cię do odkrycia uroku i piękna ogrodnictwa w naszym niezwykłym zakątku internetu.
+            Tutaj znajdziesz inspirację, porady i wskazówki dotyczące stworzenia swojego własnego rajskiego ogrodu.
+            Niezależnie od tego, czy masz już zielone palce, czy dopiero zaczynasz swoją przygodę z roślinami, nasza strona pomoże Ci w każdym kroku.</p>
+        <br>
+          <p>Niech nasza strona będzie Twoim kompasem, który poprowadzi Cię przez różnorodne aspekty ogrodnictwa.
+            Podziel się swoimi doświadczeniami i zadawaj pytania, a nasza społeczność ogrodników chętnie pomoże Ci rozwijać Twoje umiejętności. <b>Szybko <a href="rejestracja.html" style="color: #12531e; text-decoration: underline">zarejestruj się</a>, żeby nie stracić taką fajną stronką!</b></p>
+        <br>
+          <p>Ciesz się każdą chwilą spędzoną w swoim własnym przydomowym ogrodzie i pozwól nam towarzyszyć Ci w tej wspaniałej podróży.
+            Witamy w naszym ogrodowym świecie, gdzie natura i piękno spotykają się w doskonałej harmonii!</p>
+
+      </div>
+      <div class="image">
+        <img src="../photo/baner.jpg">
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+<div class="landing-page-2" id="land">
+  <div class="container">
+
+    <div class="header-area" id="header2">
+      <ul class="links">
+        <li onclick="pobierzDane('popular')">Popularne</li>
+        <li class="hover" id="b1" onclick="pobierzDane('warzywnik')"><a>Warzywnik</a></li>
+        <li class="hover"><a href="chat.html">Czat</a></li>
+        <li class="hover"><a href="galeria.html">Galeria</a></li>
+        <li>
+
+          <div class="search">
+            <input type="text" id="searchInput" class="searchTerm" placeholder="szukaj na stronie..">
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<section id="s1">
+  <div class="pop">
+
+    <div class="popular" onclick="pobierzDane('pop1')">
+      <h2>6 środków na szkodniki roślin doniczkowych</h2>
+
+      <div>
+      <img src="../photo/pop1.jpg">
+      </div>
+
+      <div>
+      <p>
+        Rośliny bardzo często padają ofiarą wielu szkodników.
+        Do najbardziej popularnych można zaliczyć: mszyce, gąsienice, miseczniki, tarczniki czy przędziorki.
+        Odżywiają się one sokiem roślin i w ten sposób prowadzą do ich osłabienia, a często nawet zupełnego wyniszczenia.
+        <br><br>
+        Co prawda na rynku ogrodniczym nie brakuje skutecznych preparatów zwalczających szkodniki, ale istnieją też domowe, sprawdzone sposoby na szkodniki roślin.
+        Takie zwalczanie niechcianych intruzów jest znacznie tańsze, zdrowsze, szybsze oraz co najważniejsze w pełni ekologicznie...
+      </p>
+      </div>
+
+    </div>
+
+    <div class="popular" onclick="pobierzDane('pop2')">
+      <h2>Jakie odmiany warzyw sieję w tym sezonie?</h2>
+
+      <div>
+      <img src="../photo/nasiona.jpg">
+      </div>
+
+      <div>
+      <p>
+        Coraz intensywniej odczuwam skutki zmian klimatu oraz zwiększoną ilość chorób i szkodników w swoim ogrodzie, który sąsiaduje z działkami ROD.
+        Tu rośliny są bardziej narażone dlatego przy wyborze nasion w tym sezonie zwracam większą uwagę na odmiany warzyw, które będą wykazywały się zwiększoną odpornością.
+        W tym poście przeczytasz jakie odmiany wybrałem i dlaczego...
+        <br><br>
+        Czym kieruję się przy wyborze odmian warzyw? Odmiany warzyw jakie będę uprawiać tym sezonie. Odmiany pomidorów...
+      </p>
+      </div>
+    </div>
+
+    <div class="popular" onclick="pobierzDane('pop3')">
+      <h2>Gleba w ogrodzie – zadbaj o nią jesienią</h2>
+
+      <div>
+      <img src="../photo/gleba.jpg">
+      </div>
+
+      <div>
+      <p>
+        Jesień to po prostu idealny czas, by zadbać o glebę w ogrodzie, która przecież przez cały sezon ciężko pracowała,
+        aby dać nam wysokie plony i cieszyć nasze oczy kwiatami.
+        Wciąż w ogrodnictwie za mało uwagi poświęcamy glebie; stosowanie nawozów często ogranicza się do wyobrażenia,
+        że zasilamy nimi rośliny, a przecież tak naprawdę stosując nawozy, dostarczamy je do gleby, i dopiero dzięki pracy bakterii glebowych,
+        grzybów, wody i korzeni te nawozy stają się dostępne dla roślin.
+      </p>
+      <p>Dobra gleba – czyli jaka. Jak i czym ulepszyć glebę...</p>
+      </div>
+    </div>
+
+    <div class="popular" onclick="pobierzDane('pop4')">
+      <h2>Jak zrobić ogród nowoczesny?</h2>
+
+      <div>
+      <img src="../photo/ogrod-nowoczesny-prew.jpg">
+      </div>
+
+      <div>
+      <p>
+        Ogród nowoczesny jest jedną z trudniejszych aranżacji. Jednocześnie jest bardzo efektowny. A czy da się go dobrze zaaranżować we własnym zakresie?
+        <br><br>
+        Pod nazwą ogród nowoczesny kryje się szerokie pojęcie jakie odnosimy do form ogrodowych wynikających ze współczesnych trendów w architekturze i sztuce. Ogrody nowoczesne często towarzyszą nowoczesnej zabudowie.
+
+        Rozwój tej formy rozpoczął się w połowie ubiegłego wieku wraz z rozwojem nowych prądów kulturowych i stylistycznych...
+      </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Landing Page -->
+
+
+<footer class="footer">
+
+  <div class="footlinks">
+    <div style="margin-top: 1%">
+      <a class="logoname-infooter" href="index.html">PLANTMAX</a><br>
+      <a href="index.html" class="sologan">gardering & plants</a>
+    </div>
+    <div>
+      <a href="index.html">Strona Główna</a><br>
+      <a href="posty.html">Posty</a><br>
+      <a href="shop.html">Sklep</a><br>
+    </div>
+    <div>
+      <a href="#" onclick="pobierzDane('popular')">Popularne</a><br>
+      <a href="#" onclick="pobierzDane('warzywnik')">Warzywnik</a><br>
+      <a href="galeria.html">Galeria</a><br>
+    </div>
+    <div>
+      <a href="profile.html">Profil</a><br>
+      <a href="contact.html">Kontakt</a><br>
+      <a href="chat.html">Czat</a><br>
+    </div>
+
+  </div>
+
+
+  <div class="icons">
+    <a href="https://fb.me/g/p_693okKJeF9epjKoC/Wx8hSet1" target="_blank"><div class="icons-hover"><i class="fab fa-facebook"></i></div></a>
+    <a href="https://youtube.com/@Plantmax-ei3gi" target="_blank"><div class="icons-hover"><i class="fab fa-youtube"></i></div></a>
+    <a href="https://www.instagram.com/plant_max_/" target="_blank"><div class="icons-hover"><i class="fab fa-instagram"></i></div></a>
+    <a href="https://twitter.com/plant_max_" target="_blank"><div class="icons-hover"><i class="fab fa-twitter"></i></div></a>
+    <p>
+      Maksym Shepeta &copy; 2023, All Rights Reserved.
+    </p>
+  </div>
+
+
+</footer>
+<script src="../js/script.js"></script>
+<script src="../js/slideshow.js"></script>
+</body>
+</html>
